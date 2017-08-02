@@ -2098,7 +2098,7 @@ uint32_t find_setreuid(void) {
 uint32_t find_setreuid_cred_update(void) {
     switch (target_environment) {
         case iPhone41_iOS902: return 0xe040;
-        case iPhone41_iOS910: return 0xe031;
+        case iPhone41_iOS910: return 0xe040;
         case iPhone41_iOS920: return 0xe031;
         case iPhone41_iOS921: return 0xe031;
         case iPhone41_iOS930: return 0xe031;
@@ -2235,7 +2235,7 @@ uint32_t find_setreuid_cred_update(void) {
 uint32_t find_pid_check(void) {
     switch (target_environment) {
         case iPhone41_iOS902: return 0x16;
-        case iPhone41_iOS910: return 0x14;
+        case iPhone41_iOS910: return 0x16;
         case iPhone41_iOS920: return 0x14;
         case iPhone41_iOS921: return 0x14;
         case iPhone41_iOS930: return 0x14;
@@ -2372,7 +2372,7 @@ uint32_t find_pid_check(void) {
 uint32_t find_posix_check(void) {
     switch (target_environment) {
         case iPhone41_iOS902: return 0x40;
-        case iPhone41_iOS910: return 0x3e;
+        case iPhone41_iOS910: return 0x40;
         case iPhone41_iOS920: return 0x3e;
         case iPhone41_iOS921: return 0x3e;
         case iPhone41_iOS930: return 0x3e;
